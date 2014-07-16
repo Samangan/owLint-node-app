@@ -4,6 +4,8 @@ var path = require("path");
 
 process.title = "owlint";
 
+//TODO: print out version if -v or -version
+
 var args = process.argv.slice(2);
 var formattedArgs = "";
     args.forEach(function(arg) {
