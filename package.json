@@ -1,11 +1,9 @@
 {
   "name": "owlint",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A configurable, command line OWL file linter.",
   "bin": "bin/owlint",
-  "dependencies": {
-    "exec": "^0.1.1"
-  },
+  "dependencies": {},
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
