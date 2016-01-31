@@ -1,6 +1,6 @@
 {
   "name": "owlint",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A configurable, command line OWL file linter.",
   "bin": "bin/owlint",
   "dependencies": {},
