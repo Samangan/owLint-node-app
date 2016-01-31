@@ -5,8 +5,6 @@ var path = require("path");
 
 process.title = "owlint";
 
-//TODO: print out version if -v or -version
-
 var args = process.argv.slice(2);
     var formattedArgs = "";
     args.forEach(function(arg) {
@@ -18,4 +16,8 @@ var jarpath = path.join(__dirname, 'owLint.jar');
 childProcess.exec("java -jar " + jarpath + formattedArgs, function (error, stdout, stderr) {
     console.log(stdout);
     console.log(stderr);
+
+    if (error) {
+       process.exit(1);
+    }
 });
